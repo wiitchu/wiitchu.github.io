@@ -285,6 +285,9 @@ h4 {
   margin-top: 50px;
 }
 
+.sociallinks {
+  animation: fade-in-top ease 2s forwards;
+}
 
 /* PROJECT 1 */
 
