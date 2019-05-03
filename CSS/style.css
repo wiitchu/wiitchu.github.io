@@ -40,10 +40,23 @@ body {
 @media screen and (max-width: 800px) {
 
   .nav {
-    left: 10%;
+    left: 15%;
   }
 }
 
+#navwhiteeye {
+  display: none;
+  margin-right: 1rem;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+@media screen and (max-width: 800px) {
+
+  #navwhiteeye {
+    display: inline;
+  }
+}
 
 a {
   font-family: rhode, sans-serif;
@@ -55,6 +68,7 @@ a {
   margin-right: 7rem;
   color: #333949;
   transition: 0.3s;
+
 }
 
 a:hover {
@@ -200,7 +214,7 @@ p {
   .intro {
 
     width: 100%;
-    margin-left: 10rem;
+    padding: 15rem 4rem 0 15rem;
   }
 
 }
@@ -211,7 +225,7 @@ p {
   .intro {
 
     width: 100%;
-    margin-left: 15rem;
+    padding: 15rem 2rem 0 10rem;
   }
 
 }
@@ -222,6 +236,7 @@ p {
   .intro {
     width: 100%;
     margin-left: 2rem;
+    padding: 15rem 2rem 0 2rem;
   }
 
 }
