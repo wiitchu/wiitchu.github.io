@@ -220,6 +220,30 @@ opacity: 0;
   animation: fade-in-top ease 2s forwards;
 }
 
+h6 {
+  font-size: 8px;
+  text-transform: uppercase;
+  font-family: helvetica;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 960px) {
+
+  h6 {
+
+    font-size: 7px;
+  }
+
+}
+
+.h6left {
+  float:left;
+}
+
+.h6right {
+  float:right;
+}
+
 
 .intro {
 
@@ -289,7 +313,7 @@ h4 {
 /* PROJECT 1 */
 
 .project1 {
-   padding-top: 20rem;
+   padding-top: 18rem;
 }
 
 @media screen and (max-width: 1400px) {
@@ -340,7 +364,7 @@ h4 {
 /* PROJECT 2 */
 
 .project2 {
-   padding-top: 20rem;
+   padding-top: 15rem;
 }
 
 @media screen and (max-width: 1400px) {
@@ -391,7 +415,8 @@ h4 {
 /* PROJECT 3 */
 
 .project3 {
-   padding-top: 20rem;
+   padding-top: 18rem;
+   padding-bottom: 18rem;
 }
 
 @media screen and (max-width: 1400px) {
