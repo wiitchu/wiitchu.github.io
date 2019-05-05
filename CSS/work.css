@@ -185,6 +185,8 @@ p {
 ul.timeline {
     list-style-type: none;
     position: relative;
+    opacity: 0;
+  animation: fade-in-top ease 2s forwards;
 }
 ul.timeline:before {
     content: ' ';
@@ -218,11 +220,6 @@ opacity: 0;
   animation: fade-in-top ease 2s forwards;
 }
 
-
-.img-fluid {
-  opacity: 0;
-  animation: fade-in-top ease 2s forwards;
-}
 
 .intro {
 
