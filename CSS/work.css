@@ -57,7 +57,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: #f088db;
   transition: 0.3s;
   text-decoration: none;
   
