@@ -64,11 +64,11 @@ a:hover {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
 
   a {
     margin-right: 2rem;
-        font-size: 8;
+        font-size: 8px;
   }
 }
 
