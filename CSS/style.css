@@ -90,6 +90,13 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 750px) {
+
+  a {
+    margin-right: 1.5rem;
+    font-size: 7px;
+  }
+}
 
 
 
