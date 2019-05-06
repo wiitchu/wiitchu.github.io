@@ -4,7 +4,7 @@ html {
 
 
 body {
-  font-family: rhode, sans-serif !important;
+  font-family: rhode-extended, sans-serif !important;
   font-style: normal !important;
   font-weight: 500 !important;
   color: #333949 !important;
@@ -45,7 +45,7 @@ body {
 
 
 a {
-  font-family: rhode, sans-serif;
+  font-family: rhode-extended, sans-serif;
   font-style: normal;
   font-weight: 500;
   text-transform: uppercase;
@@ -116,7 +116,7 @@ a:hover {
 
 
 .myname h1 {
-	font-family: rhode, sans-serif;
+	font-family: rhode-extended, sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -151,7 +151,7 @@ a:hover {
 
 h2 {
 	letter-spacing: 2px;
-	font-family: rhode, sans-serif;
+	font-family: rhode-extended, sans-serif;
   font-style: normal;
   font-weight: 700;
   padding-bottom: 50px;
