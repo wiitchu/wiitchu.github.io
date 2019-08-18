@@ -199,7 +199,7 @@ ul.timeline {
 }
 ul.timeline:before {
     content: ' ';
-    background: linear-gradient(#a3a5a8, #ffffff);
+    background: linear-gradient(#b7b9bd, #ffffff);
     display: inline-block;
     position: absolute;
     left: 29px;
