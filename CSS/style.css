@@ -426,28 +426,30 @@ p {
     to { opacity: 1; }
 }
 
-button {
-  width: 200px;
-  height: 50px;
-  border-color: #333949;
-  border-style: solid;
-  border-radius: 1px;
-  text-align: center;
+
+.btn {
+  width: 200px !important;
+  height: 50px !important;
+  border-color: #333949 !important;
+  border-style: solid !important;
+  border-radius: 1px !important;
+  text-align: center!important;
   font-size: 12px;
-  margin: 50px 0 30px 0;
+  margin: 50px 0 30px 0 !important;
   animation: fade-in-top ease 2s forwards;
-  color: #333949;
-  transition: 0.3s;
+  color: #333949 !important;
+  transition: 0.3s !important;
+  padding-top: 15px;
 }
 
-button:hover {
-  width: 200px;
-  height: 50px;
-  background-color: #333949;
-  text-align: center;
-  font-size: 12px;
-  color: white;
-  margin: 50px 0 30px 0;
+.btn:hover {
+  width: 200px !important;
+  height: 50px !important;
+  background-color: #333949 !important;
+  text-align: center !important;
+  font-size: 12px !important;
+  color: white !important;
+  margin: 50px 0 30px 0 !important;
   animation: fade-in-top ease 2s forwards;
 }
 
