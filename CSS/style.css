@@ -16,8 +16,8 @@ body {
 
   body {
 
-    background-color: #5442fc;
-    color: white;
+    background-color: white;
+    color: #333949 !important;
   }
 }
 
@@ -84,9 +84,9 @@ a:hover {
 @media screen and (max-width: 800px) {
 
   a {
-    color: white;
+    color: #333949;
     margin-right: 2rem;
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 
@@ -94,7 +94,7 @@ a:hover {
 
   a {
     margin-right: 1.5rem;
-    font-size: 7px;
+    font-size: 10px;
   }
 }
 
@@ -179,7 +179,8 @@ p {
 
   h2 {
 
-    color: white;
+    color: #333949;
+    padding-right: 30px;
   }
 }
 
@@ -188,14 +189,15 @@ p {
 
   p {
 
-    color: white;
+    color: #333949;
   }
 }
 
 @media screen and (max-width: 500px) {
 
   p {
-    font-size: 10px;
+    font-size: 12px;
+    padding-right: 30px;
   }
 
 }
@@ -422,6 +424,40 @@ p {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-color: #333949;
+  border-style: solid;
+  border-radius: 1px;
+  text-align: center;
+  font-size: 12px;
+  margin: 50px 0 30px 0;
+  animation: fade-in-top ease 2s forwards;
+  color: #333949;
+  transition: 0.3s;
+}
+
+button:hover {
+  width: 200px;
+  height: 50px;
+  background-color: #333949;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  margin: 50px 0 30px 0;
+  animation: fade-in-top ease 2s forwards;
+}
+
+.sociallinks {
+    animation: fade-in-top ease 2s forwards;
+    margin: 30px 0 20px 0;
+}
+
+.sociallinks a {
+  margin-right: 50px;
 }
 
 
